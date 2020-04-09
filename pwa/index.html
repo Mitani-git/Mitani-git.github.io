@@ -2,6 +2,25 @@
 <html>
 <head>
 	<title>PWA Demo</title>
+	<!-- PWA用設定 -->
+	<!-- manifest.jsonを呼び出しています -->
+	<link rel="manifest" href="/pwa/manifest.json">
+	<script>
+		// service workerが有効なら、service-worker.js を登録します
+		if ('serviceWorker' in navigator) {
+			navigator.serviceWorker.register('/pwa/service-worker.js').then(function() { console.log('Service Worker Registered'); });
+		}
+	</script>
+	<!-- Safari用設定 -->
+	<!-- アドレスバー等のブラウザのUIを非表示 -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<!-- default（Safariと同じ） / black（黒） / black-translucent（ステータスバーをコンテンツに含める） -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<!-- ホーム画面に表示されるアプリ名 -->
+	<meta name="apple-mobile-web-app-title" content="PWA Demo">
+	<!-- ホーム画面に表示されるアプリアイコン -->
+	<link rel="apple-touch-icon" href="/pwa/icon-192.png">
+	<!-- /Safari用設定 -->
 </head>
 <body>
 	<p>PWA Demo</p>
