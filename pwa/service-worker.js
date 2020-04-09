@@ -17,8 +17,7 @@ var urlsToCache = [
 		'/pwa/icon-192.png',
 		'/pwa/icon-256.png',
 		'/pwa/test/',
-		"/pwa/test/style.css",
-		"/pwa/test/main.js"
+		"/pwa/test/style.css"
 ];
 
 // インストール処理
