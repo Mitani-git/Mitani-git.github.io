@@ -13,7 +13,12 @@ self.addEventListener('fetch', function(event) {});
 // キャッシュファイルの指定
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
-		'/pwa/'
+		'/pwa/',
+		'/pwa/icon-192.png',
+		'/pwa/icon-256.png',
+		'/pwa/test/',
+		"/pwa/test/style.css",
+		"/pwa/test/main.js"
 ];
 
 // インストール処理
