@@ -19,7 +19,14 @@ var urlsToCache = [
 		'/mitani/pwa/icon-192.png',
 		'/mitani/pwa/icon-256.png',
 		'/mitani/pwa/test/index.html',
-		"/mitani/pwa/test/style.css"
+    "/mitani/pwa/test/style.css",
+    "/mitani/pwa/splash/launch-640x1136.png",
+    "/mitani/pwa/splash/launch-750x1334.png",
+    "/mitani/pwa/splash/launch-1125x2436.png",
+    "/mitani/pwa/splash/launch-1242x2208.png",
+    "/mitani/pwa/splash/launch-1536x2048.png",
+    "/mitani/pwa/splash/launch-1668x2224.png",
+    "/mitani/pwa/splash/launch-2048x2732.png",
 ];
 const CACHE_KEYS = [
     CACHE_NAME
