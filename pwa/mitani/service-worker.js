@@ -15,11 +15,11 @@ self.addEventListener('fetch', function(event) {});
 // キャッシュファイルの指定
 var CACHE_NAME = 'pwa-sample-caches';
 var urlsToCache = [
-		'/pwa/index.html',
-		'/pwa/icon-192.png',
-		'/pwa/icon-256.png',
-		'/pwa/test/index.html',
-		"/pwa/test/style.css"
+		'/mitani/pwa/index.html',
+		'/mitani/pwa/icon-192.png',
+		'/mitani/pwa/icon-256.png',
+		'/mitani/pwa/test/index.html',
+		"/mitani/pwa/test/style.css"
 ];
 const CACHE_KEYS = [
     CACHE_NAME
