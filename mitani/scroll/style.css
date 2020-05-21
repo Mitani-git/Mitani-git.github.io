@@ -1,0 +1,10 @@
+.scroll {
+	height: 300px;
+	overflow-y: scroll;
+	border: 1px solid red;
+}
+
+.body {
+	height: 2000px;
+	background: linear-gradient(red, blue)
+}
