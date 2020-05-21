@@ -1,10 +1,14 @@
 .scroll {
-	height: 300px;
+	height: 500px;
 	overflow-y: scroll;
-	border: 1px solid red;
+	border: 1px solid black;
+}
+
+p {
+	font-size: 24px;
 }
 
 .body {
-	height: 2000px;
+	height: 4000px;
 	background: linear-gradient(red, blue)
 }
