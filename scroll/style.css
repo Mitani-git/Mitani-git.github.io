@@ -1,0 +1,11 @@
+.header {
+	background-color: #f5deb3;
+	display: block;
+	height: 100px;
+}
+.scroll {
+	display: block;
+	overflow: scroll;
+	height: 200px;
+	background-color: #b0c4de;
+}
