@@ -5,7 +5,7 @@
 }
 .scroll {
 	display: block;
-	overflow: scroll;
+	/* overflow: scroll; */
 	height: 200px;
 	background-color: #b0c4de;
 }
