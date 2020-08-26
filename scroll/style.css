@@ -7,7 +7,7 @@
 	display: block;
 	overflow: scroll;
 	/* height: 200px; */
-	min-height: 200px;
+	max-height: 200px;
 	background-color: #b0c4de;
 	float: left;
 }
