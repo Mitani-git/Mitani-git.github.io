@@ -1,0 +1,10 @@
+.big {
+	height: 100px;
+	background-color: red;
+	width: 1200px;
+}
+.max {
+	height: 100px;
+	background-color: blue;
+	width: 100%;
+}
